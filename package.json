@@ -4,7 +4,7 @@
   "description": "A sample app to test components developed for SyRF",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/wildfalcon/syrf-component-test/issues"
   },
-  "homepage": "https://github.com/wildfalcon/syrf-component-test#readme"
+  "homepage": "https://github.com/wildfalcon/syrf-component-test#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
 }

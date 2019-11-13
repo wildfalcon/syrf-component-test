@@ -18,6 +18,14 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "./index.html"
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/graph-displayer.html",
+      filename: "./graph-displayer"
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/graph-chooser.html",
+      filename: "./graph-chooser"
     })
   ]
 }

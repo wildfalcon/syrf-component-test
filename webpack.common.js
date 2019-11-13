@@ -21,11 +21,11 @@ module.exports = {
     }),
     new HtmlWebPackPlugin({
       template: "./src/graph-displayer.html",
-      filename: "./graph-displayer"
+      filename: "./graph-displayer.html"
     }),
     new HtmlWebPackPlugin({
       template: "./src/graph-chooser.html",
-      filename: "./graph-chooser"
+      filename: "./graph-chooser.html"
     })
   ]
 }

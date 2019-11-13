@@ -22,9 +22,9 @@ module.exports = {
       filename: "./index.html"
     }),
     new CopyPlugin([
-      { from: 'node_modules/@wildfalcon', to: 'node_modules/@wildfalcon' },
-      { from: 'node_modules/@webcomponents', to: 'node_modules/@webcomponents' },
-      { from: 'public', to: 'public' },
+      // { from: 'node_modules/@wildfalcon', to: 'node_modules/@wildfalcon' },
+      // { from: 'node_modules/@webcomponents', to: 'node_modules/@webcomponents' },
+      // { from: 'public', to: 'public' },
     ])
   ]
 }

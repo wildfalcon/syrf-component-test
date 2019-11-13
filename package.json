@@ -27,6 +27,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^2.3.0"
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "@wildfalcon/graph-displayer": "^0.2.0-alpha-2"
   }
 }
